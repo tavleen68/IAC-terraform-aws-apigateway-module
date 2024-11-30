@@ -1,0 +1,34 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+.idea
+commentedcode.tf
+
+# Module directory
+.terraform
+.idea
+*.iml
+
+# Local .terraform directories
+**/.terraform/*
+# Terraform lockfile
+.terraform.lock.hcl
+.terraform.tfstate
+.terraform.tfstate.backup
+*env
+*venv
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore Code Editor conf files
+*.idea
+../.idea/
+
+# Mac OS
+../.DS_Store
+
+**/.gradle/*
+**/build/*
+.build-harness
+build-harness
